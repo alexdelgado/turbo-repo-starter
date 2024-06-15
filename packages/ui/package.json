@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@packages/eslint-config": "*",
+    "@packages/tailwind-config": "*",
     "@packages/typescript-config": "*",
     "@turbo/gen": "^1.12.4",
     "@types/eslint": "^8.56.5",
