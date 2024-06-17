@@ -1,6 +1,14 @@
 {
   "name": "turbo-repo-starter",
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "npm@10.5.0",
   "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -11,13 +19,5 @@
     "prettier": "^3.2.5",
     "turbo": "^2.0.4",
     "typescript": "^5.4.5"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "packageManager": "npm@10.5.0",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+  }
 }
